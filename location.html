@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SLCI</title>
+        <link rel="stylesheet" href="location.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SLCI</title>
+    </head>
+
+    <body>
+        <!--start of header-->
+        <div class="header">
+            <!--logo-->
+            <div class="logo">
+            <img src="shalom-removebg-preview (1).png" alt="Logo">
+            <p>SHALOM LEARNING CENTER</p>
+         </div>
+ 
+         <!--navigation-->
+         <div class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="prog.html">PROGRAMS</a>
+            <a href="#">ABOUT US</b></a>
+            <a href="contact.html">CONTACT</a>
+            <a href="location.html">LOCATION</a>
+              <!-- Open Sidebar Button -->
+             <button class="openbtn" onclick="openNav()">☰</button>
+         </div> 
+     </div>
+    <!--end of header-->
+
+    <!-- Sidebar -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">LOG IN</a>
+        <a href="#">SERVICES</a>
+        <a href="#">CONTACT</a>
+        <a href="#">SETTINGS</a> 
+        <a href="#">LOG OUT</a>
+    </div>
+    <!--End Sidebar -->
+
+    <!-- banner -->
+    <div class="location-banner">
+        <img src="location 1.jpg">
+    </div>
+    <!-- end of banner -->
+
+    <!-- text location -->
+    <div class="text-loc">
+        <strong>SHALOM LEARNING CENTER, INC. (Building)<br></strong>
+        Kinder - Middle School - Junior Highschool 
+        
+        <br><br><br>
+        <b>Address: </b>CRF Hall, 26 Florence, Muzon, Taytay, 1920 Rizal <br>
+        <b>Google Maps Link: </b><a href="https://www.google.com/maps/place/SHALOM+LEARNING+CENTER,+INC.+(High+School+Building)/@14.5477422,121.1448787,19z/data=!4m20!1m13!4m12!1m4!2m2!1d121.143296!2d14.5523517!4e1!1m6!1m2!1s0x3397c7776be5630f:0x6796f546660167fc!2sSHALOM+LEARNING+CENTER,+INC.+(High+School+Building),+CRF+Hall,+26+Florence,+Muzon,+Taytay,+1920+Rizal!2m2!1d121.1454094!2d14.5474331!3m5!1s0x3397c7776be5630f:0x6796f546660167fc!8m2!3d14.5474331!4d121.1454094!16s%2Fg%2F11t_gz1h58?entry=ttu" target="_blank">Click Here</a> <br>
+    </div>
+    <!-- end of text location -->
+
+     <!--footer -->
+     <div class="footer">
+        <img width="100"  src="shalom.jpg">
+        <p> REPHAEL DE GUZMAN BARLAAN</p>
+        <p>rephaelbarlaan123@gmail.com</p>
+    </div>
+    <!--End of footer -->
+    </body>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+</html>
